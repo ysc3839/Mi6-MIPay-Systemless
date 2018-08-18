@@ -1,4 +1,5 @@
 version: "{build}"
+skip_non_tags: true
 image:
   - Ubuntu
 
