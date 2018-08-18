@@ -20,4 +20,4 @@ find -type d -exec chmod 0755 {} +
 find -type f -exec chmod 0644 {} +
 
 version=$(grep -Po "version=\K.*" module.prop)
-zip -r -x *.git* build.sh *.txt *.py *.zip -y -9 Mi6-MIPay-Systemless-$version.zip . || exit 1
+zip -r -x *.git* build.sh *.txt *.py *.zip *.yml -y -9 Mi6-MIPay-Systemless-$version.zip . || exit 1
