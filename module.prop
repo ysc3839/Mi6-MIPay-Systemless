@@ -1,7 +1,7 @@
-id=template
-name=Template Module
-version=v1
-versionCode=1
-author=topjohnwu
-description=A short description
+id=Mi6-MIPay-Systemless
+name=Mi6 MIPay Systemless
+version=8.8.16
+versionCode=20180816
+author=ysc3839
+description=Bring MI Pay to MIUI Global.
 minMagisk=1500
