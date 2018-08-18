@@ -1,0 +1,18 @@
+version: "{build}"
+image:
+  - Ubuntu
+
+build_script:
+  - ./build.sh
+
+artifacts:
+  - path: '*.zip'
+
+deploy:
+  description: ''
+  provider: GitHub
+  auth_token:
+    secure: JFcBo1SYmjlb31U5qawX2pSSCXfnGYTjjjyr1Gv4DWnmiQQ43GT5RFFH2jS4lt+P
+  artifact: /.*\.zip/
+  draft: true
+  prerelease: false
