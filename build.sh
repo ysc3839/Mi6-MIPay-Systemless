@@ -4,7 +4,7 @@
 
 wget $MIUI_CN_DEV_ZIP
 unzip $(basename $MIUI_CN_DEV_ZIP) system.transfer.list system.new.dat
-#rm $(basename $MIUI_CN_DEV_ZIP)
+rm $(basename $MIUI_CN_DEV_ZIP)
 python3 sdat2img.py system.transfer.list system.new.dat
 rm system.transfer.list system.new.dat
 7z x -osystem system.img lib64/libuptsmaddonmi.so app/Mipay app/NextPay app/TSMClient app/UPTsmService
