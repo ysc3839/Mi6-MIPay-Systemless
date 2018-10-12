@@ -7,11 +7,13 @@ unzip $(basename $MIUI_CN_DEV_ZIP) system.transfer.list system.new.dat || exit 1
 rm $(basename $MIUI_CN_DEV_ZIP)
 python3 sdat2img.py system.transfer.list system.new.dat || exit 1
 rm system.transfer.list system.new.dat
-7z x -osystem system.img lib64/libuptsmaddonmi.so app/Mipay app/NextPay app/TSMClient app/UPTsmService || exit 1
+7z x -osystem system.img lib64/libentryexpro.so lib64/libuptsmaddonmi.so app/Mipay app/NextPay app/TSMClient app/UPTsmService || exit 1
 rm system.img
 
 pushd system/app/TSMClient/lib/arm64
+rm libentryexpro.so
 rm libuptsmaddonmi.so
+ln -s /system/lib64/libentryexpro.so
 ln -s /system/lib64/libuptsmaddonmi.so
 popd
 
