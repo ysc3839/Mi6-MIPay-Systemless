@@ -1,3 +1,3 @@
-MIUI_CN_DEV_ZIP="https://bigota.d.miui.com/8.10.11/miui_MI6_8.10.11_ea9fedf3e1_8.0.zip"
-# MIUI_CN_DEV_TGZ="https://bigota.d.miui.com/8.10.11/sagit_images_8.10.11_20181011.0000.00_8.0_cn_c8d1fc4567.tgz"
+MIUI_CN_DEV_ZIP="https://bigota.d.miui.com/8.10.18/miui_MI6_8.10.18_047b881683_8.0.zip"
+# MIUI_CN_DEV_TGZ="https://bigota.d.miui.com/8.10.18/sagit_images_8.10.18_20181018.0000.00_8.0_cn_44e2c41ee7.tgz"
 MIUI_CN_DEV_TGZ="https://update.miui.com/updates/v1/fullromdownload.php?d=sagit&b=X&r=cn&n="
