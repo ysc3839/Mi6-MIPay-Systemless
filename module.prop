@@ -1,7 +1,7 @@
 id=Mi6-MIPay-Systemless-MIUI-Stable
 name=Mi6 MIPay Systemless MIUI Stable
-version=10.0.2.0
-versionCode=10.0.2.0.OCACNFH
+version=10.2.1.0
+versionCode=10.2.1.0.OCACNFK
 author=ysc3839
 description=Bring MI Pay to MIUI Global.
 minMagisk=1500
