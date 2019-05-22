@@ -3,6 +3,11 @@ skip_non_tags: true
 image:
   - Ubuntu1804
 
+install:
+  - |
+    sudo apt update
+    sudo apt -y install brotli
+
 build_script:
   - ./build.sh
 
