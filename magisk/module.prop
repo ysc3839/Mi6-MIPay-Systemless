@@ -1,7 +1,7 @@
 id=Mi6-MIPay-Systemless
 name=Mi6 MIPay Systemless
-version=9.8.9
-versionCode=20190809
+version=9.9.3
+versionCode=20190903
 author=ysc3839
 description=Bring MI Pay to MIUI Global.
 minMagisk=1500
