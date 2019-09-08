@@ -26,6 +26,13 @@ ln -s /system/lib64/libentryexpro.so
 ln -s /system/lib64/libuptsmaddonmi.so
 popd
 
+pushd system/app/TSMClient/lib/arm64
+rm libentryexpro.so
+rm libuptsmaddonmi.so
+ln -s /system/lib64/libentryexpro.so
+ln -s /system/lib64/libuptsmaddonmi.so
+popd
+
 find -exec touch -d @0 -h {} +
 find -type d -exec chmod 0755 {} +
 find -type f -exec chmod 0644 {} +
